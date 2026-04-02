@@ -275,10 +275,10 @@ export default function Index() {
                     backgroundClip: "text",
                   }}
                 >
-                  YourUsername
+                  |ET| Fialka
                 </h1>
                 <p className="text-white/35 text-xs font-golos mt-0.5 tracking-widest">
-                  #0001 · Discord
+                  eternalkills · #0001
                 </p>
               </div>
 
@@ -324,8 +324,12 @@ export default function Index() {
                   Обо мне
                 </p>
                 <p className="text-white/60 text-sm leading-relaxed font-golos">
-                  Здесь можно рассказать немного о себе — чем занимаешься, что любишь,
-                  или просто оставить загадочную фразу. 🌌
+                  𝙻𝚎𝚊𝚍𝚎𝚛 𝚘𝚏 𝙴𝚃
+                  <br /><br />
+                  𝚆𝚛𝚒𝚝𝚎 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚖𝚢 𝚖𝚊𝚗𝚊𝚐𝚎𝚛!
+                  <br />
+                  <span className="text-white/40">Manager:</span>{" "}
+                  <span style={{ color: "#a78bfa" }}>manager_elitetwo</span>
                 </p>
               </div>
 
