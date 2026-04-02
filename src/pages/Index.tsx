@@ -41,7 +41,7 @@ function useSound() {
 function AnimatedBackground() {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden">
-      <div className="absolute inset-0 bg-[#07060f]" />
+      <div className="absolute inset-0 bg-[#0a0000]" />
       <div
         className="absolute animate-orb-move-1"
         style={{
@@ -49,7 +49,7 @@ function AnimatedBackground() {
           height: 600,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(139,92,246,0.25) 0%, rgba(99,102,241,0.1) 50%, transparent 70%)",
+            "radial-gradient(circle, rgba(200,20,20,0.3) 0%, rgba(120,0,0,0.12) 50%, transparent 70%)",
           top: "10%",
           left: "15%",
           filter: "blur(40px)",
@@ -62,7 +62,7 @@ function AnimatedBackground() {
           height: 500,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(59,130,246,0.2) 0%, rgba(6,182,212,0.1) 50%, transparent 70%)",
+            "radial-gradient(circle, rgba(160,0,0,0.2) 0%, rgba(80,0,0,0.1) 50%, transparent 70%)",
           bottom: "10%",
           right: "15%",
           filter: "blur(50px)",
@@ -75,7 +75,7 @@ function AnimatedBackground() {
           height: 400,
           borderRadius: "50%",
           background:
-            "radial-gradient(circle, rgba(236,72,153,0.15) 0%, rgba(139,92,246,0.08) 60%, transparent 70%)",
+            "radial-gradient(circle, rgba(220,30,30,0.18) 0%, rgba(100,0,0,0.08) 60%, transparent 70%)",
           top: "50%",
           left: "55%",
           filter: "blur(60px)",
@@ -181,14 +181,14 @@ export default function Index() {
         >
           <TiltCard
             className="rounded-3xl overflow-hidden"
-            style={{ background: "rgba(255,255,255,0.06)", backdropFilter: "blur(24px)", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 0 40px rgba(139,92,246,0.2), 0 40px 80px rgba(0,0,0,0.6)" } as React.CSSProperties}
+            style={{ background: "rgba(20,0,0,0.55)", backdropFilter: "blur(24px)", border: "1px solid rgba(180,0,0,0.2)", boxShadow: "0 0 40px rgba(180,0,0,0.25), 0 40px 80px rgba(0,0,0,0.7)" } as React.CSSProperties}
           >
             {/* Шапка — фон */}
             <div
               className="h-32 relative overflow-hidden"
               style={{
                 background:
-                  "linear-gradient(135deg, #1a0533 0%, #0f1a4a 40%, #0a2a3a 70%, #1a0533 100%)",
+                  "linear-gradient(135deg, #1a0000 0%, #3a0000 40%, #200000 70%, #0a0000 100%)",
                 backgroundSize: "400% 400%",
               }}
             >
@@ -196,7 +196,7 @@ export default function Index() {
                 className="absolute inset-0 animate-gradient-shift"
                 style={{
                   background:
-                    "radial-gradient(ellipse at 30% 60%, rgba(139,92,246,0.5) 0%, transparent 60%), radial-gradient(ellipse at 80% 30%, rgba(59,130,246,0.35) 0%, transparent 50%)",
+                    "radial-gradient(ellipse at 30% 60%, rgba(220,30,30,0.55) 0%, transparent 60%), radial-gradient(ellipse at 80% 30%, rgba(160,0,0,0.35) 0%, transparent 50%)",
                 }}
               />
               <div
@@ -233,7 +233,7 @@ export default function Index() {
                   style={{
                     borderColor: "#07060f",
                     boxShadow:
-                      "0 0 0 2px rgba(139,92,246,0.7), 0 0 20px rgba(139,92,246,0.4), 0 8px 24px rgba(0,0,0,0.5)",
+                      "0 0 0 2px rgba(200,30,30,0.8), 0 0 20px rgba(180,0,0,0.5), 0 8px 24px rgba(0,0,0,0.5)",
                   }}
                 >
                   <img
@@ -269,10 +269,12 @@ export default function Index() {
                   style={{
                     fontSize: "2.4rem",
                     letterSpacing: "0.18em",
-                    background: "linear-gradient(135deg, #a78bfa, #60a5fa, #f472b6)",
+                    background: "linear-gradient(to top, #cc0000, #ff4444, #ff9999, #ffffff)",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     backgroundClip: "text",
+                    backgroundSize: "100% 200%",
+                    animation: "nick-shimmer 3s ease-in-out infinite",
                   }}
                 >
                   |ET| Fialka
@@ -293,7 +295,7 @@ export default function Index() {
               >
                 <div
                   className="w-2 h-2 rounded-full animate-status-pulse"
-                  style={{ backgroundColor: "#a78bfa" }}
+                  style={{ backgroundColor: "#cc0000" }}
                 />
                 <span className="text-white/50 text-xs font-golos tracking-wide">
                   🎮 Играю в что-то интересное
@@ -306,7 +308,7 @@ export default function Index() {
                 style={{
                   height: 1,
                   background:
-                    "linear-gradient(90deg, rgba(139,92,246,0.5), rgba(59,130,246,0.25), transparent)",
+                    "linear-gradient(90deg, rgba(200,30,30,0.6), rgba(120,0,0,0.3), transparent)",
                 }}
               />
 
@@ -319,7 +321,7 @@ export default function Index() {
               >
                 <p
                   className="text-[10px] font-semibold tracking-[0.2em] uppercase mb-2.5"
-                  style={{ color: "rgba(167,139,250,0.85)" }}
+                  style={{ color: "rgba(220,60,60,0.85)" }}
                 >
                   Обо мне
                 </p>
@@ -329,7 +331,7 @@ export default function Index() {
                   𝚆𝚛𝚒𝚝𝚎 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚖𝚢 𝚖𝚊𝚗𝚊𝚐𝚎𝚛!
                   <br />
                   <span className="text-white/40">Manager:</span>{" "}
-                  <span style={{ color: "#a78bfa" }}>manager_elitetwo</span>
+                  <span style={{ color: "#ff5555" }}>manager_elitetwo</span>
                 </p>
               </div>
 
@@ -339,7 +341,7 @@ export default function Index() {
                 style={{
                   height: 1,
                   background:
-                    "linear-gradient(90deg, rgba(59,130,246,0.25), rgba(139,92,246,0.5), transparent)",
+                    "linear-gradient(90deg, rgba(120,0,0,0.3), rgba(200,30,30,0.6), transparent)",
                 }}
               />
 
@@ -405,7 +407,7 @@ export default function Index() {
               <div className="mt-5 flex items-center justify-center gap-1.5">
                 <div
                   className="w-1.5 h-1.5 rounded-full animate-status-pulse"
-                  style={{ background: "var(--p-violet)" }}
+                  style={{ background: "#cc0000" }}
                 />
                 <span className="text-white/20 text-[10px] tracking-[0.25em] uppercase font-golos">
                   Discord Profile

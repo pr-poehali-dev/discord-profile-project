@@ -105,6 +105,10 @@ export default {
 					'0%, 100%': { opacity: '1', transform: 'scale(1)' },
 					'50%': { opacity: '0.6', transform: 'scale(1.3)' },
 				},
+				'nick-shimmer': {
+					'0%, 100%': { backgroundPosition: '0% 100%' },
+					'50%': { backgroundPosition: '0% 0%' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
